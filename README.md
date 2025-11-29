@@ -56,7 +56,7 @@ This project is a **web-based football streaming platform** that allows users to
 
 ---
 
-## 🖼 Screenshots 
+## 📸 Screenshots 
 
 <table>
   <tr>
