@@ -1,4 +1,4 @@
-# ⚽ Football Live Broadcast Website  ( GoFootball )
+# ⚽ GoFootball - Live Broadcast Website 
 
 > _A dynamic web platform that streams live football matches with interactive UI, leaderboard stats, login system & more._
 
