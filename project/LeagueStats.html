@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF 
+    -8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+<title>LeagueStats</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script> 
+    $(document).ready(function(){
+      $(".dropbtn").click(function(){
+        $(".dropdown-content").slideToggle("3000");
+      });
+      $(".darkmode").click(function(){ 
+     $("body").toggleClass("black");
+  });
+      });
+
+    $(document).ready(function(){
+      $("#liga").click(function(){
+        $("#gee").toggle("3000");
+      });
+    });
+    $(document).ready(function(){
+      $("#saudi").click(function(){
+        $("#tee").toggle("3000");
+      });
+    });
+    $(document).ready(function(){
+      $("#prem").click(function(){
+        $("#zee").toggle("3000");
+      });
+    });
+      
+      function imageClick(url) {
+    window.location = url;
+}
+    
+    function bgChange(bC) {
+      document.body.style.background = bC;
+    }
+  
+			
+		
+
+</script>
+<style>
+    table, tr {
+      border: 1.5px solid black;
+    }
+    .black{
+background-color:black;
+    }
+    .tbl2{
+        border:none;
+    }
+  
+.dropbtn {
+    
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.dropdown {
+    position: relative;
+    display:-webkit-inline-flex;
+}
+
+.dropdown-content {
+    padding-top:10px;
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: maroon;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    font-size: 18px;
+}
+
+.dropdown-content a {
+   
+    color: black;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-decoration:none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;color:white;}
+.dropdown:hover .dropbtn {background-color: gray;}
+
+.option > .dropdown-content > a{
+    border: 3px solid black;border-radius: 90px;
+}
+
+
+    </style>
+<header>
+    <div class="yo"  style=" border:1px solid gray;border-radius:10px;width:99%;height:110px;background-color: dimgrey;margin:0px;">
+        <div style= "margin-left:10px;padding-left:340px;">
+        <table class="tbl2"style= "border-radius:50px;padding:0px;margin-top:10px ; background-color:black;
+        width:230px;height:50px;"><tr><th><h1 style= color:black;text-align:center;
+         ><a href="mainPage.html" style="text-decoration:none; 
+         color:maroon;">GoFootball  <img  src="downloadball.jpg" style= border-radius:10px;size:1px;width:55px;height:auto;>
+         </a></h1></th></tr></table></div>
+        <a  
+        style="background-color:black">
+        <img  src="dark-mode.jpg" class="darkmode"style= "border-radius:10px;padding-right:3px;cursor:pointer; position:relative;
+        top:-7ex;size:1px;float:right;width:79px;height:auto;"></a>
+        <div class="dropdown option" >
+        <button class="dropbtn"><a><img  src="downloadOpt (2).jpg" class="options"style= padding-left:3px;border-radius:12px;position:relative;top:-7ex;size:1px;float:left;width:59px;height:auto;></a></button>
+         <div class="dropdown-content" style="border-radius:10px;left:0;">
+         <a href="Login.html">Log in</a>
+         <a href="LeagueStats.html">League Stats</a>
+         <a href="AboutUs.html">About us</a>
+        
+         </div>
+
+          
+</div><div style="border-top:.5px solid dimgray;position:relative;top:-7.1ex;width:90px;height:50px;background-color: maroon;">
+    <div style="position:relative;top:-1.8ex;width:95px;height:14px;background-color: dimgrey;"></div></div></header>
+
+
+<div style= "border:1px solid dimgrey;border-radius:10px;background-color:maroon;padding-top:15px;width:89.7%;padding-left:90px;margin:0px;height:50px;">
+</header>
+<body><h4 style="position:relative;top:-1.5ex;right:-14ex;">Share the content by clicking on the apps logos ---></h4><a class="active" href="http://facebook.com/share?url=" >
+    <img  src="sds (2).jpg" style= border-radius:10px;position:relative;top:-8.5ex;right:-64ex;width:35px;height:auto;></a>&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;<a href="whatsapp://send?text=Your message here"><img  src="sds (3).jpg" style= border-radius:10px;position:relative;top:-8.5ex;right:-64ex;width:35px;height:auto;></a>&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;<a href="http://twitter.com/share?url="><img  src="dowtnload.png" style= border-radius:10px;position:relative;top:-8.5ex;right:-64ex;width:35px;height:auto;></a>
+
+</div>
+<div style= "border:1px solid dimgrey;border-radius:10px;background-color:cadetblue;padding-top:15px;width:98%;padding-left:9px;margin:0px;height:auto;">
+
+
+ <div><p><input type="button" id="liga"value="La Liga" style=" padding-right:10px;cursor:pointer;color:maroon;background-color:black;font-family:Lucida Handwriting;font-size:x-large;border-radius:5px;margin-left:400px;"></p>
+ <p id="gee"></p></div>
+ <div><p><input type="button" id="saudi"value="Saudi Pro League" style="padding-right:10px;cursor:pointer;color:maroon;background-color:black;font-family:Lucida Handwriting;font-size:x-large;border-radius:5px;margin-left:335px;"></p>
+ <p id="tee"></p></div>
+ <div><p><input type="button" id="prem"value="Premier League"style="padding-right:10px;cursor:pointer;color:maroon;background-color:black;font-family:Lucida Handwriting;font-size:x-large;border-radius:5px;margin-left:351px;"></p>
+ <p id="zee"></p></div>
+<div  class="footer" style="position:relative;left:-1.4ex;border:0.5px solid gray;border-radius:10px;height:30px;
+background-color: dimgrey; padding: 1%; width: 99%;">
+<div onclick="imageClick('copyrigt.html')" style="cursor:pointer;padding:5px;position:relative;right:-32ex;background-color:black;
+border-radius:10px;width:80px;color:maroon">&copy;Copyright</div>
+<div onclick="imageClick('privacy.html')" style="cursor:pointer;padding:5px;position:relative;top:-3.8ex;right:-55ex;
+background-color:black;border-radius:10px;width:95px;color:maroon">Privacy Policy</div>
+<a href = "mailto:heshxm99@gmail.com" style="text-decoration:none;">
+    <div style="cursor:pointer;padding:5px;position:relative;top:-7.8ex;
+    right:-80ex;background-color:black;border-radius:10px;width:70px;color:maroon">Contact us</div></a></div>
+
+
+<script>
+var txt = "<table id='laliga' style='text-align:center;background-color:lightgrey;border: 1px solid black;border-radius:10px' width='99%'>";
+    //match Played, Goals For, Goals Against. Goals Difference
+    txt += "<tr ><th>P</th><th>Team</th><th>MP</th><th>Won</th><th>Draw</th><th>Lost</th><th>GF</th><th>GA</th><th>GD</th><th>Points</th><tr>";
+    txt += "<tr style='background-color:linen;'><td>1</td><td>Barcelona</td><td>34</td><td>27</td><td>4</td><td>3</td><td>64</td><td>13</td><td>51</td><td>85</td><tr>";
+    txt += "<tr><td>2</td><td>Real Madrid</td><td>34</td><td>22</td><td>5</td><td>7</td><td>70</td><td>32</td><td>38</td><td>71</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>3</td><td>Atletico</td><td>34</td><td>21</td><td>6</td><td>7</td><td>60</td><td>27</td><td>33</td><td>69</td><tr>";
+    txt += "<tr><td>4</td><td>Real Sociedad</td><td>34</td><td>18</td><td>8</td><td>8</td><td>45</td><td>31</td><td>14</td><td>62</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>5</td><td>Villarreal</td><td>34</td><td>17</td><td>6</td><td>11</td><td>52</td><td>35</td><td>17</td><td>57</td><tr>";
+    txt += "<tr><td>6</td><td>Real Betis</td><td>33</td><td>15</td><td>7</td><td>11</td><td>40</td><td>37</td><td>3</td><td>52</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>7</td><td>Girona</td><td>34</td><td>13</td><td>9</td><td>12</td><td>54</td><td>48</td><td>6</td><td>48</td><tr>";
+    txt += "<tr><td>8</td><td>Bilbao</td><td>34</td><td>13</td><td>8</td><td>13</td><td>44</td><td>38</td><td>6</td><td>47</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>9</td><td>Osasuna</td><td>34</td><td>13</td><td>8</td><td>13</td><td>32</td><td>36</td><td>-4</td><td>47</td><tr>";
+    txt += "<tr><td>10</td><td>Sevilla</td><td>34</td><td>13</td><td>8</td><td>13</td><td>44</td><td>49</td><td>-5</td><td>47</td><tr>";
+    txt += "</table>";
+    document.getElementById("gee").innerHTML =txt;
+
+    var txt = "<table id='sdi' style='text-align:center;background-color:lightgrey;border: 1px solid black;border-radius:10px' width='99%'>";
+    //match Played, Goals For, Goals Against. Goals Difference
+    txt += "<tr><th>P</th><th>Team</th><th>MP</th><th>Won</th><th>Draw</th><th>Lost</th><th>GF</th><th>GA</th><th>GD</th><th>Points</th><tr>";
+    txt += "<tr style='background-color:linen;'><td>1</td><td>Man City</td><td>35</td><td>27</td><td>4</td><td>4</td><td>92</td><td>31</td><td>61</td><td>85</td><tr>";
+    txt += "<tr><td>2</td><td>Arsenal</td><td>36</td><td>25</td><td>6</td><td>5</td><td>83</td><td>42</td><td>41</td><td>81</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>3</td><td>Newcastle</td><td>35</td><td>18</td><td>12</td><td>5</td><td>63</td><td>31</td><td>32</td><td>66</td><tr>";
+    txt += "<tr><td>4</td><td>Man Utd</td><td>35</td><td>20</td><td>6</td><td>9</td><td>51</td><td>41</td><td>10</td><td>66</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>5</td><td>Liverpool</td><td>35</td><td>18</td><td>8</td><td>9</td><td>67</td><td>42</td><td>25</td><td>62</td><tr>";
+    txt += "<tr><td>6</td><td>Brighton</td><td>34</td><td>17</td><td>7</td><td>10</td><td>66</td><td>45</td><td>21</td><td>58</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>7</td><td>Spurs</td><td>36</td><td>17</td><td>6</td><td>13</td><td>65</td><td>59</td><td>6</td><td>57</td><tr>";
+    txt += "<tr><td>8</td><td>Aston Villa</td><td>36</td><td>17</td><td>6</td><td>13</td><td>48</td><td>44</td><td>4</td><td>57</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>9</td><td>Brentford</td><td>36</td><td>13</td><td>14</td><td>9</td><td>54</td><td>45</td><td>9</td><td>53</td><tr>";
+    txt += "<tr><td>10</td><td>Fulham</td><td>36</td><td>15</td><td>6</td><td>15</td><td>52</td><td>49</td><td>3</td><td>51</td><tr>";
+    txt += "</table>";
+    document.getElementById("zee").innerHTML =txt;
+
+    var txt = "<table id='prm' style='text-align:center;background-color:lightgrey;border: 1px solid black;border-radius:10px' width='99%'>";
+    //match Played, Goals For, Goals Against. Goals Difference
+    txt += "<tr><th>P</th><th>Team</th><th>MP</th><th>Won</th><th>Draw</th><th>Lost</th><th>GF</th><th>GA</th><th>GD</th><th>Points</th><tr>";
+    txt += "<tr style='background-color:linen;'><td>1</td><td>Al-Ittihad</td><td>26</td><td>19</td><td>5</td><td>2</td><td>52</td><td>11</td><td>41</td><td>62</td><tr>";
+    txt += "<tr><td>2</td><td>Al-Nasser</td><td>26</td><td>17</td><td>6</td><td>3</td><td>54</td><td>15</td><td>39</td><td>57</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>3</td><td>AL-Shabab</td><td>26</td><td>16</td><td>5</td><td>5</td><td>51</td><td>25</td><td>26</td><td>53</td><tr>";
+    txt += "<tr><td>4</td><td>Al-Hilal</td><td>25</td><td>14</td><td>7</td><td>4</td><td>45</td><td>23</td><td>22</td><td>49</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>5</td><td>Al-Ta'awon</td><td>27</td><td>12</td><td>8</td><td>7</td><td>36</td><td>32</td><td>4</td><td>44</td><tr>";
+    txt += "<tr><td>6</td><td>AL-Fateh</td><td>26</td><td>12</td><td>3</td><td>11</td><td>41</td><td>35</td><td>6</td><td>39</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>7</td><td>Al-Ta'ee</td><td>26</td><td>10</td><td>4</td><td>12</td><td>39</td><td>41</td><td>-2</td><td>34</td><tr>";
+    txt += "<tr><td>8</td><td>Ettifaq</td><td>26</td><td>9</td><td>6</td><td>11</td><td>24</td><td>29</td><td>-5</td><td>33</td><tr>";
+    txt += "<tr style='background-color:linen;'><td>9</td><td>Damac</td><td>26</td><td>8</td><td>8</td><td>10</td><td>30</td><td>34</td><td>-4</td><td>32</td><tr>";
+    txt += "<tr><td>10</td><td>AL-Raed</td><td>27</td><td>9</td><td>5</td><td>13</td><td>35</td><td>45</td><td>-10</td><td>32</td><tr>";
+    txt += "</table>";
+    document.getElementById("tee").innerHTML =txt;
+    </script>
+</body>
+</html>
