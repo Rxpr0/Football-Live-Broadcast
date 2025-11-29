@@ -58,15 +58,26 @@ This project is a **web-based football streaming platform** that allows users to
 
 ## 🖼 Screenshots 
 
+<table>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/Rxpr0/Football-Live-Broadcast/raw/main/LoginPage.jpeg" width="90%" alt="Login Page" />
+      <br/><b>Login Page</b>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/Rxpr0/Football-Live-Broadcast/raw/main/MainPage.jpeg" width="90%" alt="Main Dashboard" />
+      <br/><b>Main Dashboard</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/Rxpr0/Football-Live-Broadcast/raw/main/LiveBroadcast.jpeg" width="90%" alt="Live Match Stream" />
+      <br/><b>Live Match Stream</b>
+    </td>
+    <td align="center" style="padding: 10px;">
+      <img src="https://github.com/Rxpr0/Football-Live-Broadcast/raw/main/LeaderBoard.jpeg" width="90%" alt="Leaderboard" />
+      <br/><b>Leaderboard & Stats</b>
+    </td>
+  </tr>
+</table>
 
-### Main Page
-![Main Page](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/MainPage.jpeg)
-
-### Live Broadcast
-![Live Stream](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LiveBroadcast.jpeg)
-
-### Leaderboard Stats
-![Stats](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LeaderBoard.jpeg)
-
-### Login Page
-![Dark Mode](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LoginPage.jpeg)
