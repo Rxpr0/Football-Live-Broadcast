@@ -1,4 +1,4 @@
-# ⚽ Football Live Broadcast Website  ( GoFootball)
+# ⚽ Football Live Broadcast Website  ( GoFootball )
 
 > _A dynamic web platform that streams live football matches with interactive UI, leaderboard stats, login system & more._
 
@@ -56,17 +56,17 @@ This project is a **web-based football streaming platform** that allows users to
 
 ---
 
-## 🖼 Screenshots (Placeholders)
+## 🖼 Screenshots 
 
-```markdown
+
 ### Main Page
-![Main Page](assets/screenshots/main-page.png)
+![Main Page](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/MainPage.jpeg)
 
 ### Live Broadcast
-![Live Stream](assets/screenshots/live-stream.png)
+![Live Stream](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LiveBroadcast.jpeg)
 
 ### Leaderboard Stats
-![Stats](assets/screenshots/leaderboard.png)
+![Stats](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LeaderBoard.jpeg)
 
-### Dark Mode
-![Dark Mode](assets/screenshots/dark-mode.png)
+### Login Page
+![Dark Mode](https://github.com/Rxpr0/Football-Live-Broadcast/blob/main/LoginPage.jpeg)
